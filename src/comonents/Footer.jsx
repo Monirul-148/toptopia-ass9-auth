@@ -1,14 +1,19 @@
+import { SwiperSlide } from "swiper/react";
+
 export default function Footer() {
   return (
-    <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
-  <nav className="grid grid-flow-col gap-4">
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
-  </nav>
+   <footer className="footer footer-horizontal footer-center  text-primary-content p-10 bg-purple-600 py-10">
+  <aside>
+  
+    <p className="font-bold text-black">
+      ToyTopia Industries Ltd.
+      <br />
+      Providing reliable tech since 1992
+    </p>
+    <p className="text-black">Copyright © {new Date().getFullYear()} - All right reserved</p>
+  </aside>
   <nav>
-    <div className="grid grid-flow-col gap-4">
+    <div className="flex items-center gap-5 text-black"> 
       <a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -44,9 +49,6 @@ export default function Footer() {
       </a>
     </div>
   </nav>
-  <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
-  </aside>
 </footer>
   );
 }
