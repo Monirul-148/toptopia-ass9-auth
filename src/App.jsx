@@ -16,10 +16,10 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        {/* <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/toy/:toyId" element={
           <ProtectedRoute><ToyDetails /></ProtectedRoute>
-        } /> */}
+        } />
         {/* <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/my-profile" element={

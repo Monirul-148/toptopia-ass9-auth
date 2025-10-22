@@ -13,17 +13,17 @@ export default function Home() {
         modules={[Navigation, Pagination, Autoplay]}
         navigation
         pagination={{ clickable: true }}
-        autoplay={{ delay: 2500, disableOnInteraction: false }}
+        autoplay={{ delay: 6500, disableOnInteraction: false }}
         loop={true}
       >
         <SwiperSlide>
-          <img src="https://cdn.pixabay.com/photo/2016/03/31/20/11/lego-1297582_1280.png" alt="Slide 1" />
+          <img src="https://i.ibb.co/6RF2VDFb/1.jpg" alt="Slide 1" className="w-full h-[550px] object-cover"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://cdn.pixabay.com/photo/2017/01/30/13/27/lego-2022036_1280.jpg" alt="Slide 2" />
+          <img src="https://i.ibb.co/hJWy5Cx1/2.jpg" alt="Slide 2" className="w-full h-[550px] object-cover"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://cdn.pixabay.com/photo/2017/01/31/21/21/lego-2027591_1280.jpg" alt="Slide 3" />
+          <img src="https://i.ibb.co/HLD4btxc/3.jpg" alt="Slide 3" className="w-full h-[550px] object-cover"/>
         </SwiperSlide>
       </Swiper>
     </div>
