@@ -20,9 +20,9 @@ function App() {
         <Route path="/toy/:toyId" element={
           <ProtectedRoute><ToyDetails /></ProtectedRoute>
         } />
-        {/* <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/my-profile" element={
+        <Route path="/login" element={<Login />} />
+        {/* <Route path="/register" element={<Register />} /> */}
+        {/* <Route path="/my-profile" element={
           <ProtectedRoute><MyProfile /></ProtectedRoute>
         } /> */}
         {/* <Route path="/seller-dashboard" element={

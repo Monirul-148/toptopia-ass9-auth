@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="navbar bg-base-100 shadow-sm mx-auto">
+    <div className="navbar bg-white shadow-lg mx-auto">
       {/* Navbar Start */}
       <div className="navbar-start ">
         <div className="dropdown">
@@ -39,7 +39,7 @@ export default function Navbar() {
           </ul>
         </div>
         <h1
-          className="text-xl font-bold cursor-pointer"
+          className="text-3xl font-bold cursor-pointer"
           onClick={() => navigate("/")}>
           ToyTopia
         </h1>
@@ -80,7 +80,7 @@ export default function Navbar() {
         ) : (
           <button
             onClick={() => navigate("/login")}
-            className="btn btn-sm btn-outline">
+            className="w-32 h-10 bg-blue-500 hover:bg-blue-700 text-white rounded-lg">
             Login
           </button>
         )}
