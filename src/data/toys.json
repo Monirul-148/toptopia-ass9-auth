@@ -1,0 +1,26 @@
+[
+  {
+    "toyId": 1,
+    "toyName": "Lego Classic Bricks",
+    "sellerName": "Toys R Us Local",
+    "sellerEmail": "contact@toysruslocal.com",
+    "price": 49.99,
+    "rating": 4.7,
+    "availableQuantity": 75,
+    "description": "A timeless set of colorful Lego bricks that encourages creativity and problem-solving. Kids can build anything they imagine, from houses to vehicles.",
+    "pictureURL": "https://i.ibb.co/rgrPSb5/images.jpg",
+    "subCategory": "Building Blocks"
+  },
+  {
+    "toyId": 2,
+    "toyName": "Barbie Dreamhouse",
+    "sellerName": "Local Barbie Shop",
+    "sellerEmail": "barbie@local.com",
+    "price": 99.99,
+    "rating": 4.9,
+    "availableQuantity": 50,
+    "description": "A beautiful Barbie Dreamhouse with furniture and accessories.",
+    "pictureURL": "https://i.ibb.co/CspnYD49/download-1.jpg",
+    "subCategory": "Dolls"
+  }
+]
