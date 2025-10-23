@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../services/authContext";
-import { EyeIcon, EyeOffIcon } from "lucide-react"; // 👁️ eye icons
+import { EyeIcon, EyeOffIcon } from "lucide-react"; 
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [showPassword, setShowPassword] = useState(false); // 👁️ state for toggling password
+  const [showPassword, setShowPassword] = useState(false); 
   const { login, loginWithGoogle } = useAuth();
   const navigate = useNavigate();
 
@@ -29,6 +29,7 @@ export default function Login() {
     }
   };
 
+  
   return (
     <div className="min-h-screen flex justify-center items-center bg-white">
       <div className="p-10 w-96">

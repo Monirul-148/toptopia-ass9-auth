@@ -7,20 +7,69 @@
     "price": 49.99,
     "rating": 4.7,
     "availableQuantity": 75,
-    "description": "A timeless set of colorful Lego bricks that encourages creativity and problem-solving. Kids can build anything they imagine, from houses to vehicles.",
-    "pictureURL": "https://i.ibb.co/rgrPSb5/images.jpg",
+    "description": "A timeless set of colorful Lego bricks that encourages creativity.",
+    "pictureURL": "https://i.ibb.co/zVLNZQVj/b1.jpg",
     "subCategory": "Building Blocks"
   },
   {
     "toyId": 2,
-    "toyName": "Barbie Dreamhouse",
-    "sellerName": "Local Barbie Shop",
-    "sellerEmail": "barbie@local.com",
-    "price": 99.99,
-    "rating": 4.9,
-    "availableQuantity": 50,
-    "description": "A beautiful Barbie Dreamhouse with furniture and accessories.",
-    "pictureURL": "https://i.ibb.co/CspnYD49/download-1.jpg",
-    "subCategory": "Dolls"
+    "toyName": "Plush Teddy Bear",
+    "sellerName": "Cuddles Shop",
+    "sellerEmail": "hello@cuddles.com",
+    "price": 19.99,
+    "rating": 4.5,
+    "availableQuantity": 120,
+    "description": "Soft and huggable teddy for all ages.",
+    "pictureURL": "https://i.ibb.co/d0xrKfcn/b2.jpg",
+    "subCategory": "Plush"
+  },
+  {
+    "toyId": 3,
+    "toyName": "Remote Control Car",
+    "sellerName": "Speedy Toys",
+    "sellerEmail": "speedy@toys.com",
+    "price": 39.99,
+    "rating": 4.3,
+    "availableQuantity": 60,
+    "description": "Fast RC car for outdoor fun.",
+    "pictureURL": "https://i.ibb.co/GvxFbbBS/b3.jpg",
+    "subCategory": "Vehicles"
+  },
+  {
+    "toyId": 4,
+    "toyName": "Puzzle Game 100pcs",
+    "sellerName": "Brainy Kids",
+    "sellerEmail": "info@brainykids.com",
+    "price": 14.99,
+    "rating": 4.6,
+    "availableQuantity": 200,
+    "description": "Develops problem solving and focus.",
+    "pictureURL": "https://i.ibb.co/Q3yvtSvV/b4.jpg",
+    "subCategory": "Puzzles"
+  },
+  {
+    "toyId": 5,
+    "toyName": "Wooden Train Set",
+    "sellerName": "OldTown Toys",
+    "sellerEmail": "contact@oldtown.com",
+    "price": 29.99,
+    "rating": 4.4,
+    "availableQuantity": 40,
+    "description": "Classic wooden train set for toddlers.",
+    "pictureURL": "https://i.ibb.co/6LYy80x/b5.jpg",
+    "subCategory": "Vehicles"
+  },
+  {
+    "toyId": 6,
+    "toyName": "Coloring Book Set",
+    "sellerName": "ArtFun",
+    "sellerEmail": "hello@artfun.com",
+    "price": 9.99,
+    "rating": 4.2,
+    "availableQuantity": 300,
+    "description": "Coloring books with markers for creative fun.",
+    "pictureURL": "https://i.ibb.co/zV6VYZyv/b6.jpg",
+    "subCategory": "Arts & Crafts"
   }
+  
 ]

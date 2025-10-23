@@ -6,7 +6,7 @@ export default function SellerDashboard() {
   }, []);
 
   return (
-    <div className="container mx-auto mt-10">
+    <div className="bg-red-500 container mx-auto mt-10">
       <h2 className="text-2xl font-bold mb-4">Seller Dashboard</h2>
       <p>Here sellers can manage their toys and view orders (dummy page for assignment).</p>
     </div>

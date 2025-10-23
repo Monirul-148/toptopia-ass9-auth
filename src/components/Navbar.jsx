@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="navbar bg-white shadow-lg mx-auto">
+    <div className="navbar bg-white shadow-lg container mx-auto mt-4">
       {/* Navbar Start */}
       <div className="navbar-start ">
         <div className="dropdown">
@@ -36,6 +36,9 @@ export default function Navbar() {
             <li>
               <NavLink to="/my-profile">My Profile</NavLink>
             </li>
+            <li>
+              <NavLink to="/Seller-Dashboard">Seller Dashboard</NavLink>
+            </li>
           </ul>
         </div>
         <h1
@@ -48,16 +51,21 @@ export default function Navbar() {
       {/* Navbar Center */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-5">
-          <NavLink
+          <li><NavLink
             to="/"
             className={({ isActive }) => (isActive ? "underline" : "")}>
             Home
-          </NavLink>
-          <NavLink
+          </NavLink></li>
+          <li><NavLink
             to="/my-profile"
             className={({ isActive }) => (isActive ? "underline" : "")}>
             My Profile
-          </NavLink>
+          </NavLink></li>
+          <li><NavLink
+            to="/Seller-Dashboard"
+            className={({ isActive }) => (isActive ? "underline" : "")}>
+            Seller-Dashboard
+          </NavLink></li>
         </ul>
       </div>
 
