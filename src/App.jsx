@@ -21,7 +21,7 @@ function App() {
           <ProtectedRoute><ToyDetails /></ProtectedRoute>
         } />
         <Route path="/login" element={<Login />} />
-        {/* <Route path="/register" element={<Register />} /> */}
+        <Route path="/register" element={<Register />} />
         {/* <Route path="/my-profile" element={
           <ProtectedRoute><MyProfile /></ProtectedRoute>
         } /> */}
