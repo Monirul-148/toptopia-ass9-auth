@@ -1,22 +1,22 @@
+// src/firebase/firebase.config.js
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
+// Firebase config
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: "AIzaSyAAQgnghZrS8woAwRdjXKfdUBdfw85JMF0",
+  authDomain: "toytopia-ass9-auth.firebaseapp.com",
+  projectId: "toytopia-ass9-auth",
+  storageBucket: "toytopia-ass9-auth.firebasestorage.app",
+  messagingSenderId: "1080687904323",
+  appId: "1:1080687904323:web:7cdbc6ffd367af848df6f6"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// Auth instance
+// Initialize Firebase Authentication
 export const auth = getAuth(app);
 
-// Google provider
+// Initialize Google Provider
 export const googleProvider = new GoogleAuthProvider();
-
-export default app;

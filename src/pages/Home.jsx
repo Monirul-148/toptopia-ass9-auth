@@ -42,7 +42,7 @@ export default function Home() {
 
       {/* View More Button */}
       <div className="flex justify-center mb-10">
-        <button className="w-32 h-13 bg-gray-100 hover:bg-gray-300 text-black rounded-lg">View More</button>
+        <button  className="w-32 h-13 bg-gray-100 hover:bg-gray-300 text-black rounded-lg border">View More</button>
       </div>
     </div>
   );
